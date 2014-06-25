@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#FFFFFF">
+	
+ <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"        
+        android:orientation="horizontal" >
+        <TextView
+            android:text="@string/hotel"
+  			android:layout_width="0dp"
+            android:layout_weight="1"
+           android:background="@drawable/notesmenubutton"
+           android:fontFamily="sans-serif-light"
+              android:gravity="center"
+            android:layout_height="40dp"/>
+              
+        <EditText
+            android:id="@+id/editHotel"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="phone"
+            android:fontFamily="sans-serif-light"
+            android:lines="1"
+            android:maxLines="1" />
+
+    </LinearLayout>  
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"        
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:text="@string/food"
+  			android:layout_width="0dp"
+            android:layout_weight="1"
+           android:background="@drawable/notesmenubutton"
+           android:fontFamily="sans-serif-light"
+              android:gravity="center"
+            android:layout_height="40dp"/>
+              
+        <EditText
+            android:id="@+id/editFood"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="phone"
+            android:fontFamily="sans-serif-light"
+            android:lines="1"
+            android:maxLines="1" />
+
+    </LinearLayout>  
+    
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"        
+        android:orientation="horizontal" >
+        <TextView
+            android:text="@string/materials"
+  			android:layout_width="0dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-light"
+           android:background="@drawable/notesmenubutton"
+             android:gravity="center"
+            android:layout_height="40dp"/>
+              
+        <EditText
+            android:id="@+id/editMaterials"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="phone"
+            android:fontFamily="sans-serif-light"
+            android:lines="1"
+            android:maxLines="1" />
+
+    </LinearLayout>
+   
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"        
+        android:orientation="horizontal" >
+        <TextView
+            android:text="@string/other"
+  			android:layout_width="0dp"
+            android:layout_weight="1"
+           android:background="@drawable/notesmenubutton"
+             android:fontFamily="sans-serif-light"
+              android:gravity="center"
+            android:layout_height="40dp"/>
+              
+        <EditText
+            android:id="@+id/editOther"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="phone"
+            android:fontFamily="sans-serif-light"
+            android:lines="1"
+            android:maxLines="1" />
+
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"        
+        android:orientation="horizontal" >
+        <TextView
+            android:text="@string/notes"
+  			android:layout_width="0dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-light"
+           android:background="@drawable/notesmenubutton"
+             android:gravity="center"
+            android:layout_height="40dp"/>
+              
+        <EditText
+            android:id="@+id/editNotes"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="text"
+            android:fontFamily="sans-serif-light"
+            android:lines="1"
+            android:maxLines="1" />
+
+    </LinearLayout>
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="1"
+             android:paddingBottom="10dp"
+             android:gravity="bottom"
+             android:orientation="horizontal" >
+
+         <Button
+             android:id="@+id/btn_Save"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:background="@drawable/notesmenubutton"
+             android:fontFamily="sans-serif-light"
+             android:text="@string/save"
+             />
+
+             <Button
+                 android:id="@+id/btn_Cancel"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:background = "@drawable/notesmenubutton"
+						
+					android:fontFamily="sans-serif-light"
+                 android:text="@string/cancel" />
+</LinearLayout>
+             
+  <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="1"
+             android:gravity="bottom"
+             android:orientation="horizontal" >
+
+         </LinearLayout>
+
+  <Button
+      android:id="@+id/btn_menu"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/notesmenubutton"
+      android:fontFamily="sans-serif-light"
+      android:text="@string/menu"
+       />
+
+</LinearLayout>

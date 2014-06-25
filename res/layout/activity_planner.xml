@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp" 
+        android:background="#FFFFFF"	>
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+ 
+        <TextView
+            android:text="@string/depart"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/plannermenubutton"
+           android:fontFamily="sans-serif-light"
+           android:gravity="center"
+            android:layout_height="40dp"/>
+ 
+        <EditText
+            android:id="@+id/editDepart"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:lines="1" 
+            android:hint="current location"/>
+        </LinearLayout>
+ 
+         <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal" >
+ 
+            <TextView
+                android:text="@string/arrive"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                 android:background="@drawable/plannermenubutton"
+           android:fontFamily="sans-serif-light"
+           android:gravity="center"
+            android:layout_height="40dp" />
+            
+   
+   
+            <EditText
+                android:id="@+id/editDestination"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"
+                android:lines="1" />
+            
+          
+        </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="1"
+             
+             android:orientation="horizontal" >          
+        <Button
+            android:id="@+id/btn_Cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/plannermenubutton"
+			
+			android:fontFamily="sans-serif-light"
+            android:text="@string/cancel"/>
+        
+        </LinearLayout>
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="1"
+             android:paddingBottom="10dp"
+             android:gravity="bottom"
+             android:orientation="horizontal" >
+
+         <Button
+             android:id="@+id/btnStart"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:background="@drawable/plannermenubutton"
+             android:fontFamily="sans-serif-light"
+             android:text="@string/start"
+              />
+
+             <Button
+                 android:id="@+id/btnStop"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:background = "@drawable/plannermenubutton"
+					android:fontFamily="sans-serif-light"
+                 android:text="@string/stop" />
+</LinearLayout>
+             
+  <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="1"
+             android:gravity="bottom"
+             android:orientation="horizontal" >
+
+        
+
+  <Button
+      android:id="@+id/btn_menu"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/plannermenubutton"
+      android:fontFamily="sans-serif-light"
+      android:text="@string/menu"
+       />
+</LinearLayout>
+</LinearLayout>
+ 

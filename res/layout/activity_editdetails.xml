@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#FFFFFF"
+>
+	
+<TableLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/layout">
+	
+	<TableRow
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:padding="20dp"
+		>
+		
+		<Button
+		android:layout_height="100dip"
+		android:layout_width="200dip"
+		android:layout_weight="1"
+		android:background = "@drawable/fillupmenubutton"
+		android:textColor="#99CC00"	
+		android:layout_marginRight="10dp"
+		android:fontFamily="sans-serif-light"
+		android:text="@string/edit_your_details"
+		android:id="@+id/btnEditDetails"/>
+
+		<Button
+		    android:id="@+id/btnChangeVechile"
+		    android:layout_width="200dip"
+		    android:layout_height="100dip"
+		    android:layout_marginRight="10dp"
+		    android:layout_weight="1"
+		    android:background="@drawable/plannermenubutton"
+		    android:fontFamily="sans-serif-light"
+		    android:text="@string/change_vechile"
+		    android:textColor="#33B5E5" />
+	</TableRow>
+  <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="1"
+             android:gravity="bottom"
+             android:orientation="horizontal" >
+
+       
+
+  <Button
+      android:id="@+id/btn_menu"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/fillupmenubutton"
+      android:fontFamily="sans-serif-light"
+      android:text="@string/menu"
+      />
+</LinearLayout>
+</TableLayout>
+
+</LinearLayout>

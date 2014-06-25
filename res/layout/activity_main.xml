@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#FFFFFF"
+>
+	
+<TableLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/layout">
+	
+	<TableRow
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:padding="20dp"
+		>
+		
+		<Button
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background = "@drawable/fillupmenubutton"
+		android:textColor="#99CC00"	
+		android:layout_marginRight="10dp"
+		android:fontFamily="sans-serif-light"
+		android:text="@string/fill_up"
+		android:id="@+id/btn_fillUp"/>
+		
+		<Button
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background = "@drawable/plannermenubutton"
+		android:textColor="#33B5E5"	
+		android:fontFamily="sans-serif-light"
+		android:layout_marginRight="10dp"
+		android:text="@string/planner"
+		android:id="@+id/btn_planner"/>
+		
+	</TableRow>
+	
+		<TableRow
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:padding="20dp"
+		>
+		
+		<Button
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background = "@drawable/overallmenubutton"
+		android:textColor="#AA66CC"	
+		android:layout_marginRight="10dp"
+		android:fontFamily="sans-serif-light"
+		android:text="@string/overall"
+		android:id="@+id/btn_overall"/>
+		
+			<Button
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:text="@string/expenses"
+		android:background = "@drawable/notesmenubutton"
+		android:textColor="#CC0000"	
+		android:layout_marginRight="10dp"
+		android:fontFamily="sans-serif-light"
+		android:id="@+id/btn_notes"/>
+		
+		
+	</TableRow>
+	
+	<TableRow
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:padding="20dp"
+		>
+		
+		<Button
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background = "@drawable/detailsmenubutton"
+		android:textColor="#FF4444"	
+		android:layout_marginRight="10dp"
+		android:fontFamily="sans-serif-light"
+		android:text="@string/details"
+		android:id="@+id/btn_details"/>
+		
+	<Button
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background = "@drawable/startmenubutton"
+		android:fontFamily="sans-serif-light"
+		android:textColor="#FFBB33"	
+		android:layout_marginRight="10dp"
+		android:text="@string/your_vechile"
+		android:id="@+id/btn_start"/>
+		
+	</TableRow>
+	
+<LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="1"
+             android:gravity="bottom"
+             android:orientation="horizontal" >
+
+       
+
+  <Button
+      android:id="@+id/btn_menu"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/plannermenubutton"
+      android:fontFamily="sans-serif-light"
+      android:text="@string/menu"
+      />
+</LinearLayout>
+</TableLayout>
+
+</LinearLayout>
